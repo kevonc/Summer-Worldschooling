@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Worldschooling - Experience-Based Learning for Families</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero-label">Summer Worldschooling</span>
+            <h1>Transform Summer Breaks into World-Class Learning Adventures</h1>
+            <p class="hero-subtitle">Create meaningful experiences that blend travel, learning, and family bonding - without leaving your regular life behind.</p>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="objectives">
+        <div class="container">
+            <h2>What is Summer Worldschooling?</h2>
+            <div class="objectives-grid">
+                <div class="objective-card">
+                    <div class="card-number">01</div>
+                    <h3>For Part-Time Adventurers</h3>
+                    <p>Perfect for parents who love worldschooling but can't travel full-time</p>
+                </div>
+                <div class="objective-card">
+                    <div class="card-number">02</div>
+                    <h3>Summer-Focused</h3>
+                    <p>Transform summer holidays into rich learning experiences</p>
+                </div>
+                <div class="objective-card">
+                    <div class="card-number">03</div>
+                    <h3>Beyond Just Travel</h3>
+                    <p>Emphasizes doing, reflecting, and sharing as key parts of the journey</p>
+                </div>
+                <div class="objective-card">
+                    <div class="card-number">04</div>
+                    <h3>Family-Friendly</h3>
+                    <p>Designed for families with children aged 3 and above</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Summer Worldschooling Adventures</h2>
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="experienceModal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How to Create Section -->
+    <section class="how-to">
+        <div class="container">
+            <h2>Craft Your Summer Worldschooling Adventure</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">Step 1</div>
+                    <h3>Choose Your Theme</h3>
+                    <p>Select an action-based theme:</p>
+                    <ul>
+                        <li>Take on a challenge (e.g., cycle around Taiwan)</li>
+                        <li>Embark on a mission (e.g., collect 10 local stories)</li>
+                        <li>Practice a lifestyle change (e.g., minimalist travel)</li>
+                    </ul>
+                </div>
+                <div class="step">
+                    <div class="step-number">Step 2</div>
+                    <h3>Plan Your Journey</h3>
+                    <ul>
+                        <li>Set a duration (1-3 weeks)</li>
+                        <li>Include kids in theme selection</li>
+                        <li>Research background information</li>
+                    </ul>
+                </div>
+                <div class="step">
+                    <div class="step-number">Step 3</div>
+                    <h3>Daily Documentation</h3>
+                    <ul>
+                        <li>Draw pictures</li>
+                        <li>Record voice notes</li>
+                        <li>Write in a travel diary</li>
+                    </ul>
+                </div>
+                <div class="step">
+                    <div class="step-number">Step 4</div>
+                    <h3>Reflect & Share</h3>
+                    <ul>
+                        <li>Document the journey</li>
+                        <li>Hold a family recap session</li>
+                        <li>Share your story with others</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Say Hello!</h2>
+            <div class="contact-form">
+                <iframe data-tally-src="https://tally.so/embed/wz2JaZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="499" frameborder="0" marginheight="0" marginwidth="0" title="Get in touch"></iframe>
+                <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+            </div>
+        </div>
+    </section>
+
+    <script src="experiences.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
